@@ -1,0 +1,332 @@
+[
+    {
+      "Indice": 0,
+      "Livro": "Gênesis",
+      "Abrev": "Gn"
+    },
+    {
+      "Indice": 1,
+      "Livro": "Êxodo",
+      "Abrev": "Ex"
+    },
+    {
+      "Indice": 2,
+      "Livro": "Levítico",
+      "Abrev": "Lv"
+    },
+    {
+      "Indice": 3,
+      "Livro": "Números",
+      "Abrev": "Nm"
+    },
+    {
+      "Indice": 4,
+      "Livro": "Deuteronômio",
+      "Abrev": "Dt"
+    },
+    {
+      "Indice": 5,
+      "Livro": "Josué",
+      "Abrev": "Js"
+    },
+    {
+      "Indice": 6,
+      "Livro": "Juízes",
+      "Abrev": "Jz"
+    },
+    {
+      "Indice": 7,
+      "Livro": "Rute",
+      "Abrev": "Rt"
+    },
+    {
+      "Indice": 8,
+      "Livro": "1 Samuel",
+      "Abrev": "1Sm"
+    },
+    {
+      "Indice": 9,
+      "Livro": "2 Samuel",
+      "Abrev": "2Sm"
+    },
+    {
+      "Indice": 10,
+      "Livro": "1 Reis",
+      "Abrev": "1Rs"
+    },
+    {
+      "Indice": 11,
+      "Livro": "2 Reis",
+      "Abrev": "2Rs"
+    },
+    {
+      "Indice": 12,
+      "Livro": "1 Crônicas",
+      "Abrev": "1Cr"
+    },
+    {
+      "Indice": 13,
+      "Livro": "2 Crônicas",
+      "Abrev": "2Cr"
+    },
+    {
+      "Indice": 14,
+      "Livro": "Esdras",
+      "Abrev": "Ed"
+    },
+    {
+      "Indice": 15,
+      "Livro": "Neemias",
+      "Abrev": "Ne"
+    },
+    {
+      "Indice": 16,
+      "Livro": "Ester",
+      "Abrev": "Et"
+    },
+    {
+      "Indice": 17,
+      "Livro": "Jó",
+      "Abrev": "Jó"
+    },
+    {
+      "Indice": 18,
+      "Livro": "Salmos",
+      "Abrev": "Sl"
+    },
+    {
+      "Indice": 19,
+      "Livro": "Provérbios",
+      "Abrev": "Pv"
+    },
+    {
+      "Indice": 20,
+      "Livro": "Eclesiastes",
+      "Abrev": "Ec"
+    },
+    {
+      "Indice": 21,
+      "Livro": "Cantares",
+      "Abrev": "Ct"
+    },
+    {
+      "Indice": 22,
+      "Livro": "Isaías",
+      "Abrev": "Is"
+    },
+    {
+      "Indice": 23,
+      "Livro": "Jeremias",
+      "Abrev": "Jr"
+    },
+    {
+      "Indice": 24,
+      "Livro": "Lamentações",
+      "Abrev": "Lm"
+    },
+    {
+      "Indice": 25,
+      "Livro": "Ezequiel",
+      "Abrev": "Ez"
+    },
+    {
+      "Indice": 26,
+      "Livro": "Daniel",
+      "Abrev": "Dn"
+    },
+    {
+      "Indice": 27,
+      "Livro": "Oseias",
+      "Abrev": "Os"
+    },
+    {
+      "Indice": 28,
+      "Livro": "Joel",
+      "Abrev": "Jl"
+    },
+    {
+      "Indice": 29,
+      "Livro": "Amós",
+      "Abrev": "Am"
+    },
+    {
+      "Indice": 30,
+      "Livro": "Obadias",
+      "Abrev": "Ob"
+    },
+    {
+      "Indice": 31,
+      "Livro": "Jonas",
+      "Abrev": "Jn"
+    },
+    {
+      "Indice": 32,
+      "Livro": "Miqueias",
+      "Abrev": "Mq"
+    },
+    {
+      "Indice": 33,
+      "Livro": "Naum",
+      "Abrev": "Na"
+    },
+    {
+      "Indice": 34,
+      "Livro": "Habacuque",
+      "Abrev": "Hc"
+    },
+    {
+      "Indice": 35,
+      "Livro": "Sofonias",
+      "Abrev": "Sf"
+    },
+    {
+      "Indice": 36,
+      "Livro": "Ageu",
+      "Abrev": "Ag"
+    },
+    {
+      "Indice": 37,
+      "Livro": "Zacarias",
+      "Abrev": "Zc"
+    },
+    {
+      "Indice": 38,
+      "Livro": "Malaquias",
+      "Abrev": "Ml"
+    },
+    {
+      "Indice": 39,
+      "Livro": "Mateus",
+      "Abrev": "Mt"
+    },
+    {
+      "Indice": 40,
+      "Livro": "Marcos",
+      "Abrev": "Mc"
+    },
+    {
+      "Indice": 41,
+      "Livro": "Lucas",
+      "Abrev": "Lc"
+    },
+    {
+      "Indice": 42,
+      "Livro": "João",
+      "Abrev": "Jo"
+    },
+    {
+      "Indice": 43,
+      "Livro": "Atos",
+      "Abrev": "At"
+    },
+    {
+      "Indice": 44,
+      "Livro": "Romanos",
+      "Abrev": "Rm"
+    },
+    {
+      "Indice": 45,
+      "Livro": "1 Coríntios",
+      "Abrev": "1Co"
+    },
+    {
+      "Indice": 46,
+      "Livro": "2 Coríntios",
+      "Abrev": "2Co"
+    },
+    {
+      "Indice": 47,
+      "Livro": "Gálatas",
+      "Abrev": "Gl"
+    },
+    {
+      "Indice": 48,
+      "Livro": "Efésios",
+      "Abrev": "Ef"
+    },
+    {
+      "Indice": 49,
+      "Livro": "Filipenses",
+      "Abrev": "Fp"
+    },
+    {
+      "Indice": 50,
+      "Livro": "Colossenses",
+      "Abrev": "Cl"
+    },
+    {
+      "Indice": 51,
+      "Livro": "1 Tessalonicenses",
+      "Abrev": "1Ts"
+    },
+    {
+      "Indice": 52,
+      "Livro": "2 Tessalonicenses",
+      "Abrev": "2Ts"
+    },
+    {
+      "Indice": 53,
+      "Livro": "1 Timóteo",
+      "Abrev": "1Tm"
+    },
+    {
+      "Indice": 54,
+      "Livro": "2 Timóteo",
+      "Abrev": "2Tm"
+    },
+    {
+      "Indice": 55,
+      "Livro": "Tito",
+      "Abrev": "Tt"
+    },
+    {
+      "Indice": 56,
+      "Livro": "Filemom",
+      "Abrev": "Fm"
+    },
+    {
+      "Indice": 57,
+      "Livro": "Hebreus",
+      "Abrev": "Hb"
+    },
+    {
+      "Indice": 58,
+      "Livro": "Tiago",
+      "Abrev": "Tg"
+    },
+    {
+      "Indice": 59,
+      "Livro": "1 Pedro",
+      "Abrev": "1Pe"
+    },
+    {
+      "Indice": 60,
+      "Livro": "2 Pedro",
+      "Abrev": "2Pe"
+    },
+    {
+      "Indice": 61,
+      "Livro": "1 João",
+      "Abrev": "1Jo"
+    },
+    {
+      "Indice": 62,
+      "Livro": "2 João",
+      "Abrev": "2Jo"
+    },
+    {
+      "Indice": 63,
+      "Livro": "3 João",
+      "Abrev": "3Jo"
+    },
+    {
+      "Indice": 64,
+      "Livro": "Judas",
+      "Abrev": "Jd"
+    },
+    {
+      "Indice": 65,
+      "Livro": "Apocalipse",
+      "Abrev": "Ap"
+    }
+  ]
