@@ -11,7 +11,7 @@ namespace ReferenceFinder.View
     {
         public String strReferencia;
         public StringBuilder backup;
-        public CReferencia ReferenciaController;
+        public CReferencia ReferenciaController = new CReferencia();
         public CLivro LivroController = new CLivro();
         public MReferencia ReferenciaModel = new MReferencia();
 
@@ -39,7 +39,7 @@ namespace ReferenceFinder.View
             strReferencia = TxtReferencia.Text;
             ListChat.Items.Add(strReferencia);
             TxtReferencia.Text = "";
-            ReferenciaController.PopularReferencia(strReferencia, CLivro.ListaLivros);
+            ReferenciaModel = ReferenciaController.PopularReferencia(strReferencia);
         }
 
         private void Chat_Load(object sender, EventArgs e)

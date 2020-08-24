@@ -4,10 +4,13 @@ using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Web.Script.Serialization;
 using System.Linq;
-using System.Text;
+using System.Xml;
 using System.Threading.Tasks;
 using ReferenceFinder.Model;
 using System.IO;
+using System.Data;
+using System.Xml.Linq;
+using System.Xml.Serialization;
 
 namespace ReferenceFinder.Controller
 {
@@ -38,8 +41,26 @@ namespace ReferenceFinder.Controller
         {
             List<MVersiculo> Lista = new List<MVersiculo>();
             MVersiculo[] Retorno = new MVersiculo[1];
-            JavaScriptSerializer serializer = new JavaScriptSerializer();
-            String arquivoLivro = File.ReadAllText("C:\\Users\\IEMB\\source\\repos\\ReferenceFinder\\ReferenceFinder\\biblia-master\\json\\Livros.json");
+            //String arquivoLivro = File.ReadAllText("C:\\Users\\IEMB\\source\\repos\\ReferenceFinder\\ReferenceFinder\\biblia-master\\json\\Livros.json");
+            String arquivoLivro = "C:\\Users\\90004477\\source\\repos\\ReferenceFinder\\ReferenceFinder\\biblia-master\\xml\\aa\\aa-gn.xml";
+            String verso;
+            try {
+                DataSet dsResultado = new DataSet();
+                dsResultado.ReadXml(arquivoLivro);
+                
+                if (dsResultado.Tables.Count != 0) {
+                    for (int i = 0; i < dsResultado.Tables.Count; i++) {
+                        if (dsResultado.Tables[0].Rows[i][0].ToString() == "Gênesis" && dsResultado.Tables[0].Rows[i][3].ToString() == "1" && dsResultado.Tables[0].Rows[i][5].ToString() == "10") {
+                            verso = dsResultado.Tables[0].Rows[i][4].ToString();
+                            break;
+                        }
+                    }
+                }
+            } catch { }
+            XmlDocument DocXml = new XmlDocument();
+            XmlElement ListXml = DocXml.DocumentElement;
+            DocXml.LoadXml(arquivoLivro);
+            String Verso = ListXml.Attributes["book = Apocalipse"].Value;
 
             return Retorno;
             

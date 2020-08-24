@@ -19,7 +19,8 @@ namespace ReferenceFinder.Controller
 
         public void PopularLivros()
         {
-            String arquivoLivro = File.ReadAllText("C:\\Users\\IEMB\\source\\repos\\ReferenceFinder\\ReferenceFinder\\biblia-master\\json\\Livros.json");
+            //String arquivoLivro = File.ReadAllText("C:\\Users\\IEMB\\source\\repos\\ReferenceFinder\\ReferenceFinder\\biblia-master\\json\\Livros.json");
+            String arquivoLivro = File.ReadAllText("C:\\Users\\90004477\\source\\repos\\ReferenceFinder\\ReferenceFinder\\biblia-master\\json\\Livros.json");
             ArrayLivros = JsonConvert.DeserializeObject<List<MLivro>>(arquivoLivro);
             ListaLivros = ArrayLivros.ToArray();
         }
