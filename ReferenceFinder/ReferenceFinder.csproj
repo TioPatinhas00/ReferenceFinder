@@ -54,6 +54,7 @@
     <Compile Include="Controller\CLivro.cs" />
     <Compile Include="Controller\CReferencia.cs" />
     <Compile Include="Model\MCapitulo.cs" />
+    <Compile Include="Model\MExtracao.cs" />
     <Compile Include="Model\MLivro.cs" />
     <Compile Include="Model\MReferencia.cs" />
     <Compile Include="Model\MVersiculo.cs" />
